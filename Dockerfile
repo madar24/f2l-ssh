@@ -12,6 +12,8 @@ ENV PYTHONUNBUFFERED=1
 # Added git and build-essential, which are often required to compile Python dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
     nano \
+    procps \
+    tmux \
     neofetch \
     ca-certificates \
     curl \
